@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for inquiries or support.">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <h1>Car Service</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="book.html">Book Now</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-us" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Us</h2>
+            <p>We’re here to help! Reach out to us using the details or form below.</p>
+
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h3>Our Address:</h3>
+                    <p>Najran, KSA</p>
+
+                    <h3>Email Us:</h3>
+                    <p><a href="mailto:customer@carservice.com">customer@carservice.com</a></p>
+
+                    <h3>Call Us:</h3>
+                    <p><a href="tel:+966554139998">+966 554 139 998</a></p>
+                </div>
+
+                <form>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Service. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your car service online. Choose your service, date, and time.">
+    <title>Book a Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <h1>Car Service</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="book.html" class="active">Book Now</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book" aria-labelledby="book-title">
+            <h1 id="book-title">Book a Service</h1>
+            <form>
+                <label for="service">Choose a Service:</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Select Service --</option>
+                    <option value="repair">Car Repair</option>
+                    <option value="tire">Tire Change</option>
+                    <option value="oil">Oil Change</option>
+                    <option value="cleaning">Car Cleaning</option>
+                </select>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Select Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Service. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
